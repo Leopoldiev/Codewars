@@ -3,11 +3,11 @@
 
 // Example: (Input --> Output)
 
-// ✅"Dermatoglyphics" --> true
+// "Dermatoglyphics" --> true
 // "aba" --> false
 // "moOse" --> false (ignore letter case)
 
-// SOLUTION:
+// ✅ SOLUTION:
 function isIsogram(str) {
    if (str.length === 0) return true;
 
