@@ -12,8 +12,8 @@
 
 var uniqueInOrder=function(iterable){
    let resultArray=[];
-   for(let i=0,j=0;i<iterable.length;i++){
-      if(iterable[i]===iterable[j]){
+   for(let i=0,j=0;i<iterable.length+1;i++){
+      if(iterable[i]!==iterable[j]){
          resultArray.push(iterable[j]);
          j=i
       }
